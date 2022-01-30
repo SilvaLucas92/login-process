@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('./partials/head.ejs', {pageTitle: 'Login'}) %>
+
+<body>
+    
+    <%- include('./partials/header.ejs') %>
+    <section class="section-form">
+    <form action="/" method="post" class="div-form">
+        <h3>Login Form</h3>
+        <div class="div-input">
+            <label > Ingrese su email </label>
+            <input type="text" name="email">    
+            <p> <%= locals.errorEmail? errorEmail : null %> </p>
+        </div>
+        <div class="div-input">
+            <label > Ingrese su Contraseña </label>
+            <input type="password"  name="password" >
+            <p> <%= locals.errorPassword? errorPassword : null %> </p>
+        </div>
+        <div class="div-button">
+        <button type="submit"  class="myButton">Enviar</button>
+        </div>
+    </form>
+</section>
+
+
+</body>
+</html>

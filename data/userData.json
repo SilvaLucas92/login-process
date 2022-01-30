@@ -1,0 +1,23 @@
+[
+ {
+  "id": 1,
+  "name": "carlos sila",
+  "edad": 25,
+  "password": "jasjdajs"
+ },
+ {
+  "name": "Lucas Silva",
+  "email": "l.silva8692@gmail.com",
+  "edad": "30",
+  "id": 2,
+  "image": "img - 1643337462269-392279330-image.jpg"
+ },
+ {
+  "name": "Viena Palomba",
+  "email": "viena_lachikita@gmail.com",
+  "edad": "5",
+  "password": "$2a$10$6AEBpaPrNVFv3TnYWvRi4OHnNBAWXmrirt18nUWECv/03kuyhpcba",
+  "id": 3,
+  "image": "img - 1643503753241-806272226-image.jpg"
+ }
+]

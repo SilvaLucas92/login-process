@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('./partials/head.ejs', {pageTitle: 'Register'}) %>
+
+<body>
+
+    <%- include('./partials/header.ejs') %>
+
+    <main>
+        <section class="section-form">
+            <form action="/register" method="post" enctype="multipart/form-data"  class="div-form" >
+                <h3>Registration Form</h3>
+                <div class="div-input">
+                    <label > Ingrese su Nombre y apellido </label>
+                    <input type="text" name="name">
+                </div>
+                <div class="div-input">
+                    <label> Ingrese su email </label>
+                    <input type="text" name="email">
+                </div>
+                <div  class="div-input" >
+                    <label class="form-label"> Ingrese su edad </label>
+                    <input type="text" name="edad" class="form-control">
+                </div>
+                <div class="div-input-file">
+                    <p id="img-text"></p>
+                    <label for="input-file"> Ingrese una Imagen de perfil </label>
+                    <input  id="input-file"type="file" name="image" class="file-input" >
+                </div>
+                <div class="div-input">
+                    <label> Ingres su Contraseña </label>
+                    <input type="password"  name="password">
+                </div>
+                <div  class="div-button" >
+                    <button type="submit"  class="myButton">Registrarse</button>
+                </div>
+
+            </form>
+        </section>    
+</main>
+
+
+</body>
+</html>
