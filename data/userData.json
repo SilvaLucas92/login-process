@@ -16,8 +16,15 @@
   "name": "Viena Palomba",
   "email": "viena_lachikita@gmail.com",
   "edad": "5",
-  "password": "$2a$10$6AEBpaPrNVFv3TnYWvRi4OHnNBAWXmrirt18nUWECv/03kuyhpcba",
   "id": 3,
   "image": "img - 1643503753241-806272226-image.jpg"
+ },
+ {
+  "name": "Keith Richards",
+  "email": "keith@gmail.com",
+  "edad": "75",
+  "password": "$2a$10$hbxX4ouQxVcYNqRowmLf2OaK2GGfC7jFJwhkGKpRAzmhM4L/Cr.eu",
+  "id": 4,
+  "image": "img - 1643561882179-638471623-image.jpg"
  }
 ]

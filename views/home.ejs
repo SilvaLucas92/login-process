@@ -8,10 +8,13 @@
     <%- include('./partials/header.ejs') %>
 
 
+<section class="section-form-pro">
     <div class="div-image">
-        <h1>Good Bye   <%= user.name %>! </h1>
-        <h2> Thank's you for visiting us!!</h2>
         <img src="/images/<%= user.image %> " class="rounded" alt="...">
+        <div class="div-img-text">
+            <h2>Good Bye   <%= user.name %>! </h2>
+            <h2> Thank's you for visiting us!!</h2>
+        </div>
     </div>
     <div  class="div-button">
         <form action="/logout" method="post"  class="text-center" >
@@ -19,7 +22,8 @@
         </form> 
     </div>   
     
-
+</section>
     
 </body>
 </html>
+

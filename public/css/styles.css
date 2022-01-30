@@ -134,6 +134,21 @@ body{
 
 /**** profile ****/
 
+.section-form-pro {
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    border: solid 2px blue;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
 .div-image {
     display: flex;
     justify-content: center;
@@ -144,20 +159,42 @@ body{
 }
 
 .div-image img {
-    border-radius: 40%;
-    width: 20%;
-    margin-bottom: 30px;
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+}
+.div-img-text p{
+    text-align: left;
+    color: #3d443a;
+    border-left: solid 2px #000;
+    padding: 5px;
+}
+
+.div-img-text h2 {
+    font-weight: 200;
+}
+
+.div-img-text { 
+    width: 80%;
 }
 
 
 @media (min-width:768px) {
+    
     .section-form {
         max-width: 650px;
+    }
+
+    .section-form-pro {
+        max-width: 350px;
     }
 }
 
 @media (min-width:1200px) {
     .section-form {
         max-width: 750px;
+    }
+
+    .section-form-pro {
+        max-width: 450px;
     }
 }

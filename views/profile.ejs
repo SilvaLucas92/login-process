@@ -7,18 +7,20 @@
 
     <%- include('./partials/header.ejs') %>
 
-
+<section  class="section-form-pro">
     <div class="div-image">
-        <h2> Hiii  <%= user.name %>  !</h2>
         <img src="/images/<%= user.image %> " class="rounded" alt="...">
+        <div class="div-img-text">
+            <h2> <%= user.name %></h2>
+            <p>Email: <%= user.email %> </p>
+            <p>Age: <%= user.edad %> </p>
+        </div>
     </div>
     <div  class="div-button">
-        <form action="/logout" method="post"  class="text-center" >
-            <button type="submit"   class="myButton" > Logout </button>
-        </form> 
+        <a href="/home"class="myButton"> Ir al Home</a>
     </div>   
     
-
+</section>
     
 </body>
 </html>
