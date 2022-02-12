@@ -3,7 +3,7 @@ const app = express();
 const session = require('express-session');
 const mainRoutes = require('./routes/mainRoutes');
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('Localhost 3000')
 });
 

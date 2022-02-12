@@ -6,25 +6,41 @@
   "password": "jasjdajs"
  },
  {
-  "name": "Lucas Silva",
-  "email": "l.silva8692@gmail.com",
-  "edad": "30",
+  "name": "Keith Richards",
+  "email": "richards@gmail.com",
+  "edad": "71",
   "id": 2,
-  "image": "img - 1643337462269-392279330-image.jpg"
- },
- {
-  "name": "Viena Palomba",
-  "email": "viena_lachikita@gmail.com",
-  "edad": "5",
-  "id": 3,
-  "image": "img - 1643503753241-806272226-image.jpg"
+  "image": "img - 1643576343200-810940732-image.jpg"
  },
  {
   "name": "Keith Richards",
-  "email": "keith@gmail.com",
-  "edad": "75",
-  "password": "$2a$10$hbxX4ouQxVcYNqRowmLf2OaK2GGfC7jFJwhkGKpRAzmhM4L/Cr.eu",
+  "email": "krichards@gmail.com",
+  "edad": "71",
+  "id": 3,
+  "image": "img - 1643576452235-965604434-image.jpg"
+ },
+ {
+  "name": "Keith Richards",
+  "email": "keithrichards@gmail.com",
+  "edad": "71",
+  "password": "$2a$10$MZXCEihRwppxA3ECql2BG.n1.BKxsmGq8b6GxQyuDaD5hZ4b2H0r6",
   "id": 4,
-  "image": "img - 1643561882179-638471623-image.jpg"
+  "image": "img - 1643576617360-670380760-image.jpg"
+ },
+ {
+  "name": "Cande",
+  "email": "Palomba",
+  "edad": "30",
+  "password": "$2a$10$65whNlBDBMDCSz5JVTc6Re7Uf7fhg4PoK87d28sKHBxevsGYL1FQC",
+  "id": 5,
+  "image": "img - 1644682891297-477304624-image.jpg"
+ },
+ {
+  "name": "candela palomba",
+  "email": "cande@gmail.com",
+  "edad": "30",
+  "password": "$2a$10$I2o7ipkFe0Mtwo8hpA72MemM3R4.V8t7J86diRH6kXWOUUN0NPyTu",
+  "id": 6,
+  "image": "img - 1644682924602-409465453-image.jpg"
  }
 ]

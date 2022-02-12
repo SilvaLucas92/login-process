@@ -26,7 +26,7 @@ const controller = {
                 errorPassword: errorValidation
             });
         }
-        const errorValidation = 'no se encuentra el email'
+        const errorValidation = 'No se encuentra el email'
         return res.render('../views/login.ejs', {
             errorEmail: errorValidation
         });
@@ -54,7 +54,6 @@ const controller = {
             return userLogin
         }
         let userLogin = userLogged('email', req.body.email);
-        console.log(req.body);
         if (userLogin) {
             res.send('ya estas logueado');
         }
